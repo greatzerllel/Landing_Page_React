@@ -18,10 +18,10 @@ export let header = {
 }
 
 export let cards = [
-    { id: 1, photo: 'http://via.placeholder.com/500x325', title: 'Card title', descriptiom: 'Lorem ipsum dolor sit amet, consectetur'},
-    { id: 2, photo: 'http://via.placeholder.com/500x325', title: 'Card title', descriptiom: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod'},
-    { id: 3, photo: 'http://via.placeholder.com/500x325', title: 'Card title', descriptiom: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor '},
-    { id: 4, photo: 'http://via.placeholder.com/500x325', title: 'Card title', descriptiom: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed '}
+    { id: 1, photo: 'http://via.placeholder.com/500x325', title: 'Card title', descriptiom: 'Lorem ipsum dolor sit amet, consectetur', btn: 'boton'},
+    { id: 2, photo: 'http://via.placeholder.com/500x325', title: 'Card title', descriptiom: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod', btn: 'boton'},
+    { id: 3, photo: 'http://via.placeholder.com/500x325', title: 'Card title', descriptiom: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ', btn: 'boton'},
+    { id: 4, photo: 'http://via.placeholder.com/500x325', title: 'Card title', descriptiom: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed ', btn: 'boton'}
 ]
 
 export let footer = {
