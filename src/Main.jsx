@@ -1,10 +1,9 @@
 import React from 'react';
 import Navbar from './components/Navbar.jsx';
-import Header from './components/Header';
-import Cards from './components/Cards';
+import Footer from './components/Body';
 import Footer from './components/Footer';
 
-export function Main ({ navbar, header, cards, footer }) { // Destructurin Javascript
+export function Main ({ navbar, body , footer }) { // Destructurin Javascript
     return(
         <>
         <Navbar navbar = {navbar} />
