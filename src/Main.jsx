@@ -1,6 +1,6 @@
 import React from 'react';
 import Navbar from './components/Navbar.jsx';
-import Footer from './components/Body';
+import Body from './components/Body';
 import Footer from './components/Footer';
 
 export function Main ({ navbar, body , footer }) { // Destructurin Javascript
