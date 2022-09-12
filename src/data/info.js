@@ -1,0 +1,31 @@
+import { LoaderTargetPlugin } from "webpack"
+
+export let navbar = {
+    logo: 'test react',
+    options: [
+        {id: 1, links: '/#', label: 'Home'},
+        {id: 2, links: '/#', label: 'About'},
+        {id: 3, links: '/#', label: 'Services'},
+        {id: 4, links: '/#', label: 'Contact'},
+    ]
+}
+
+export let header = {
+    title: 'titulo',
+    subtittle: 'texto de subtitulo',
+    button: {
+        link: '/#',
+        label: 'learn more'
+     }  
+}
+
+export let cards = [
+    { id: 1, photo: 'http://via.placeholder.com/500x325', title: 'Card title', descriptiom: 'Lorem ipsum dolor sit amet, consectetur'},
+    { id: 2, photo: 'http://via.placeholder.com/500x325', title: 'Card title', descriptiom: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod'},
+    { id: 3, photo: 'http://via.placeholder.com/500x325', title: 'Card title', descriptiom: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor '},
+    { id: 4, photo: 'http://via.placeholder.com/500x325', title: 'Card title', descriptiom: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed '}
+]
+
+export let footer = {
+    text: 'Copyright bla bla bla 2022'
+}
