@@ -1,5 +1,3 @@
-import { LoaderTargetPlugin } from "webpack"
-
 export let navbar = {
     logo: 'test react',
     options: [
