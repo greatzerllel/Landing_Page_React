@@ -1,5 +1,5 @@
 import React from "react";
-import ReactPropTypes from "prop-types";
+import PropTypes from 'prop-types';
 import Header from './Header';
 import Cards from "./Cards"
 
@@ -12,9 +12,9 @@ const Body = () => {
         )
 }
 
-/* Body.header.propTypes ={
+Body.header.propTypes ={
 
     body: PropTypes.object.isRequired
 }; 
- */
-export default Body
+
+export default Body;

@@ -7,5 +7,5 @@ import * as data from './data/info';
 
 import { Main } from './Main';
 
-const container = document.querySelector('#root');
-ShadowRoot.render(<Main {...data} />); // spread operator
+const root = ReactDOM.createRoot(document.querySelector('#root'));
+root.render(<Main {...data} />); // Spread operator
