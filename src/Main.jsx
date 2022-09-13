@@ -8,6 +8,7 @@ export function Main ({ /* navbar, body , */ footer }) { // Destructurin Javascr
         <>
        {/*  <Navbar navbar = {navbar} />
         <Body body = {body} /> */}
+        
         <Footer footer = {footer} />
         </>
     )
